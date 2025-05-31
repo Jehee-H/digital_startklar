@@ -1,0 +1,4 @@
+/* src/custom.css */
+.test-fix {
+    min-height: calc(100vh - 72px - 100px);
+}
