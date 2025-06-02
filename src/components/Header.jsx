@@ -4,11 +4,17 @@ import React from 'react';
 const Header = () => {
     return (
         <nav className="flex justify-between items-center bg-white shadow-md p-4">
-            
-            <div>
-                <div>
+
+            <div className='flex items-center space-x-3'>
+                <div className="flex items-end space-x-2 w-fit">
+                    <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
+                    <div className="w-4 h-8 bg-blue-600 rounded-full"></div>
+                    <div className="w-4 h-12 bg-blue-600 rounded-full"></div>
+                </div>
+
+                <div className='flex flex-col'>
                     <div className="text-2xl font-bold ">Digital </div>
-                    <div className="text-2xl font-bold text-blue-400">Startklar </div>
+                    <div className="text-2xl font-bold text-blue-600">Startklar </div>
                 </div>
             </div>
 
