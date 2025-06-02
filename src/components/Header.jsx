@@ -4,6 +4,7 @@ import React from 'react';
 const Header = () => {
     return (
         <nav className="flex justify-between items-center bg-white shadow-md p-4">
+            
             <div>
                 <div>
                     <div className="text-2xl font-bold ">Digital </div>
